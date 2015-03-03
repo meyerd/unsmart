@@ -1,0 +1,128 @@
+HTTP/1.1 200 OK
+Server: Oracle-iPlanet-Web-Server/7.0
+Content-Type: text/xml
+Last-Modified: Wed, 27 Aug 2014 07:15:31 GMT
+Content-Length: 3288
+ETag: "cd8-53fd8593"
+Accept-Ranges: bytes
+Date: Tue, 24 Feb 2015 22:09:58 GMT
+Connection: close
+Set-Cookie: country_codes=de; path=/; domain=.samsung.com
+Set-Cookie: device_type=pc; path=/; domain=.samsung.com
+
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlinfo>
+<icon>http://www.usatoday.com/repurposing/samsung/usat-logo-54x22.png</icon>
+<weather>
+<item>
+<title>current</title>
+<url>http://content.usatoday.com/repurposing/samsung/weather-data.ashx?type=c&amp;zip=</url>
+</item>
+<item>
+<title>forecast</title>
+<url>http://content.usatoday.com/repurposing/samsung/weather-data.ashx?type=f&amp;zip=</url>
+</item>
+</weather>
+<news>
+<item>
+<title>News</title>
+  <icon>http://www.usatoday.com/repurposing/samsung/news.png</icon>
+<url>http://content.usatoday.com/repurposing/samsung/story-data.ashx?type=topnews</url>
+</item>
+<item>
+<title>Money</title>
+  <icon>http://www.usatoday.com/repurposing/samsung/money.png</icon>
+<url>http://content.usatoday.com/repurposing/samsung/story-data.ashx?type=business</url>
+</item>
+<item>
+<title>Politics</title>
+  <icon>http://www.usatoday.com/repurposing/samsung/politics.png</icon>
+<url>http://content.usatoday.com/repurposing/samsung/story-data.ashx?type=politics</url>
+</item>
+<item>
+<title>Life</title>
+  <icon>http://www.usatoday.com/repurposing/samsung/life.png</icon>
+<url>http://content.usatoday.com/repurposing/samsung/story-data.ashx?type=entertainment</url>
+</item>
+<item>
+<title>Sports</title>
+  <icon>http://www.usatoday.com/repurposing/samsung/sports.png</icon>
+<url>http://content.usatoday.com/repurposing/samsung/story-data.ashx?type=sports</url>
+</item>
+<item>
+<title>World</title>
+  <icon>http://www.usatoday.com/repurposing/samsung/world.png</icon>
+<url>http://content.usatoday.com/repurposing/samsung/story-data.ashx?type=world</url>
+</item>
+</news>
+<stock>
+ <index>  
+   <item>
+     <title>Dow</title>
+      <url>http://content.usatoday.com/repurposing/samsung/markets-data.ashx?type=index&amp;sym=I:DJI</url>
+   </item>
+   <item>
+     <title>nasdaq</title>
+      <url>http://content.usatoday.com/repurposing/samsung/markets-data.ashx?type=index&amp;sym=I:COMP</url>
+   </item>
+   <item>
+     <title>s&amp;p</title>
+      <url>http://content.usatoday.com/repurposing/samsung/markets-data.ashx?type=index&amp;sym=INX</url>
+   </item>
+ </index>	
+ <market>   
+  <item> 
+   <title>NYSE</title>
+   <url>http://content.usatoday.com/repurposing/samsung/markets-data.ashx?type=simple&amp;exch=NYSE&amp;range=a-z</url>
+  </item>
+  <item>
+  <title>NASDAQ</title>
+   <url>http://content.usatoday.com/repurposing/samsung/markets-data.ashx?type=simple&amp;exch=NASDAQ&amp;range=a-z</url>
+  </item>
+ </market>
+ <code>
+  <title>code</title>
+  <url>http://content.usatoday.com/repurposing/samsung/markets-data.ashx?type=stock</url>
+  </code>
+ <marketindex>
+  <item>
+   <start>A</start>
+   <end>B</end>
+  </item>
+  <item>
+   <start>C</start>
+   <end>E</end>
+  </item>
+  <item>
+   <start>F</start>
+   <end>H</end>
+  </item>
+  <item>
+   <start>I</start>
+   <end>K</end>
+  </item>
+  <item>
+   <start>L</start>
+   <end>N</end>
+  </item>
+  <item>
+   <start>O</start>
+   <end>Q</end>
+  </item>
+  <item>
+   <start>R</start>
+   <end>T</end>
+  </item>
+  <item>
+   <start>U</start>
+   <end>W</end>
+  </item>
+  <item>
+   <start>X</start>
+   <end>Z</end>
+  </item>
+ </marketindex>
+ <cp>Interactive Data</cp>
+ </stock>
+ <stocknews>1</stocknews>
+</urlinfo>
