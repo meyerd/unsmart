@@ -1,0 +1,11 @@
+[Unit]
+Description=UnSmart DNS service
+After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/home/pi/unsmart
+ExecStart=/usr/sbin/dnsmasq -h -d -q -R -C dnsmasq.conf
+
+[Install]
+WantedBy=multi-user.target

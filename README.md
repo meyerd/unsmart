@@ -93,6 +93,14 @@ Working Models
 
 All this was tested on a Samsung UE40F6400.
 
+Install as Service
+------------------
+
+Copy the `.system` files to `/lib/systemd/system`. Adjust the working directory of the 
+scripts. Chmod `chmod 0644 /lib/systemd/system/unsmart*`.
+Enable the services `systemctl enable unsmart-dns.service`, `systemctl enable unsmart-http.service`.
+
+
 TODO
 ====
 

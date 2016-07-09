@@ -1,0 +1,11 @@
+[Unit]
+Description=UnSmart HTTP service
+After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/home/pi/unsmart
+ExecStart=/usr/bin/python simple_tcp.py 80
+
+[Install]
+WantedBy=multi-user.target
