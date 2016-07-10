@@ -48,6 +48,9 @@ you machine including a propoer HTTP server).
 You can start this script inside a screen, so you can detach from the
 console without exiting the server.
 
+You need to symlink the proper `samsungcom_fake.txt` file, in case you accidentally
+"really" connected the tv to the internet and all shit got updated automatically.
+
 Now configure your TV to a fixed IP and put in the IP address of your 
 server you just set up as gateway and nameserver. You should now read
 the message, that the TV is successfully connected to the internet. The
