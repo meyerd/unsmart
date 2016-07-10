@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml
+Last-Modified: Thu, 09 Jul 2015 12:01:08 GMT
+Content-Length: 53
+ETag: "35-559e6284"
+Accept-Ranges: bytes
+Date: Sun, 10 Jul 2016 19:03:35 GMT
+Connection: close
+Set-Cookie: country_codes=de; path=/; domain=.samsung.com
+Set-Cookie: device_type=pc; path=/; domain=.samsung.com
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp>ok</rsp>
