@@ -1,11 +1,11 @@
 [Unit]
-Description=UnSmart HTTP service
+Description=UnSmart Redirect Service
 After=multi-user.target
 
 [Service]
 Type=idle
 WorkingDirectory=/home/pi/unsmart
-ExecStart=/usr/bin/python simple_tcp.py 8888
+ExecStart=/bin/sh redirect_port_80.sh
 
 [Install]
 WantedBy=multi-user.target

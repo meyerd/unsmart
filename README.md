@@ -101,14 +101,17 @@ Install as Service
 
 Copy the `.system` files to `/lib/systemd/system`. Adjust the working directory of the 
 scripts. Chmod `chmod 0644 /lib/systemd/system/unsmart*`.
-Enable the services `systemctl enable unsmart-dns.service`, `systemctl enable unsmart-http.service`.
+Enable the services `systemctl enable unsmart-dns.service`, `systemctl enable unsmart-http.service`
+`systemctl enable unsmart-redirect.service`.
 
+Note: By default the http service is running on port `8888` and the redirect script 
+redirects the specific ip of the smart tv to this port. Adjust the specific ips and 
+ports in the system files and the `redirect_port_80.sh`.
 
 TODO
 ====
 
 - Iptables for NAT
 - Iptables for selective services (e.g. youtube)
-- Run the fake HTTP server on different port and forward via Iptables
 - Inspect detailled HTTP traffic
 - Inspect SSL traffic example tutorial `http://blog.philippheckel.com/2013/08/04/use-sslsplit-to-transparently-sniff-tls-ssl-connections/`
